@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   text-align: justify; 
-  color:white;
+  color:black;
   html:font-family: "Andale Mono", Monospace; font-size:12px;
   margin: 40px auto 0 auto;
   gap: 20px;
@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   text-align: justify; 
-  color:white;
+  color:black;
   html:font-family: "Andale Mono", Monospace; font-size:12px;
   margin: 40px auto 0 auto;
   gap: 20px;
@@ -38,7 +38,7 @@
 
 .header {
   text-align: justify; 
-  color:white;
+  color:black;
   html:font-family: "Andale Mono", Monospace; font-size:32px;
   width:1400px;
   font-family: verdana;
@@ -160,7 +160,7 @@ h1, h2, h3, main, header, footer {
 	text-align: justify;
 }
 .divider {
-	border: 1px solid white; 
+	border: 1px solid black; 
 	border-collapse: collapse;
 }
 
