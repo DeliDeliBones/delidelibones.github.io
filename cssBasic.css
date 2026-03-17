@@ -1,18 +1,167 @@
-/* GLOBAL ROOT */
-@font-face {font-family: "Andale Mono", Monospace;}
-:root{
-  --htmlBG:url('/sitepics/bonespril.png')repeat;
-  --mainBackground:#dddddd;
-  --singleMainBackground:url('backgrounds/whitedotted.jpg');
-  --linkColor:#75f019;
-  --selectionColor:#558f3d;
+/*index shite */
+.columnwrapper {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  text-align: justify; 
+  color:white;
+  html:font-family: "Andale Mono", Monospace; font-size:12px;
+  margin: 40px auto 0 auto;
+  gap: 20px;
+  width:1400px;
 }
-/* GLOBAL */
-@media screen and (max-width:790px){html{min-height:1400px; .imgBlock div{background:#000000e0; filter:opacity(100%);}}}
-html{scroll-behavior: smooth; scrollbar-width: auto;font-family: "Andale Mono", Monospace; font-size:12px;}
-body{
-  background: url('/sitepics/bonespril.png')repeat;
-  background-attachment:fixed;
-  min-width:789px;
-  margin: 0 auto;
+
+.gallerywrapper {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify; 
+  color:white;
+  html:font-family: "Andale Mono", Monospace; font-size:12px;
+  margin: 40px auto 0 auto;
+  gap: 20px;
+  padding:15px;
+  width:1000px;
 }
+
+.galleryitems {
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: center; 
+ align-content: center;
+ align-items: center;
+ padding:10px;
+ gap:15px;
+ 
+}
+
+.header {
+  text-align: justify; 
+  color:white;
+  html:font-family: "Andale Mono", Monospace; font-size:32px;
+  width:1400px;
+  font-family: verdana;
+  line-height: 1.6;
+}
+
+.footer {
+font-size:10px;
+}
+
+.main-column {
+  flex: 3;
+  order: 2;
+  
+}
+
+.aside-1 {
+  flex: 1;
+  order:1;
+
+}
+
+.aside-2 {
+  flex: 1;
+  order: 3;
+
+}
+
+.nav {
+	html:font-family: "Andale Mono", Monospace; font-size:12px;
+	display: flex; 
+	justify-content: center; 
+	align-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+
+
+.buttoncontainer {
+ display:flex;
+ flex-wrap: wrap;
+ justify-content: center; 
+ align-content: center;
+ align-items: center;
+ gap:9px;
+	
+}
+
+body {
+	html:font-family: "Andale Mono", Monospace; font-size:12px;
+	text-align: center;
+	background:url('sitepics/bonespril.png')repeat;
+	padding: 2em; 
+	margin: auto;
+  font-family: verdana;
+	line-height: 1.6;
+	width:1450px;
+}
+
+a, a:link, a:visited{
+
+	color:white;
+	
+}
+
+.tab {
+  text-indent:40px;
+
+}
+
+
+.center {
+text-align: center;
+}
+
+
+.figcaption {
+  text-align:center;
+  width:900px;
+}
+
+.tablecenter {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  }
+  
+
+.textcontain {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted red;
+}
+
+.textcontain .text {
+  visibility: hidden;
+  width: 150px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.textcontain:hover .text {
+  visibility: visible;
+}
+
+h1, h2, h3, main, header, footer {
+	text-align:center;
+}
+	
+.main {
+	text-align: justify;
+}
+.divider {
+	border: 1px solid white; 
+	border-collapse: collapse;
+}
+
