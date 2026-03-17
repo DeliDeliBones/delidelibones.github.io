@@ -1,0 +1,9 @@
+/* GLOBAL ROOT */
+@font-face {font-family: "Andale Mono", Monospace;}
+:root{
+  --htmlBG:url('/sitepics/bonespril.png')repeat;
+  --mainBackground:#dddddd;
+  --singleMainBackground:url('backgrounds/whitedotted.jpg');
+  --linkColor:#75f019;
+  --selectionColor:#558f3d;
+}
