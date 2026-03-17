@@ -9,9 +9,9 @@
 }
 /* GLOBAL */
 @media screen and (max-width:790px){html{min-height:1400px; .imgBlock div{background:#000000e0; filter:opacity(100%);}}}
-html{scroll-behavior: smooth; scrollbar-color: var(--bodyArticleH1) #ffffff; scrollbar-width: auto;font-family: "Andale Mono", Monospace; font-size:12px;}
+html{scroll-behavior: smooth; scrollbar-width: auto;font-family: "Andale Mono", Monospace; font-size:12px;}
 body{
-  background: var(--htmlBG);
+  background: url('/sitepics/bonespril.png')repeat;
   background-attachment:fixed;
   min-width:789px;
   margin: 0 auto;
