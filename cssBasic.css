@@ -94,14 +94,13 @@ body {
 	background:url('sitepics/bonespril.png')repeat;
 	padding: 2em; 
 	margin: auto;
-  font-family: verdana;
 	line-height: 1.6;
 	width:1450px;
 }
 
 a, a:link, a:visited{
 
-	color:white;
+	color:black;
 	
 }
 
